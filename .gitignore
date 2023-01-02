@@ -1,32 +1,71 @@
-# Prerequisites
-*.d
+# @title   .gitignore
+# @version 0.0.1
+# @author  @nachtziege
+# @date    2023-01-01
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Standard .gitignore ---------------------------
+.svn
+*~
+*.swp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Folder view configuration files
+.DS_Store
+Desktop.ini
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Thumbnail cache files
+._*
+Thumbs.db
 
-# Fortran module files
-*.mod
-*.smod
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+.Trash
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Misc
+.CFUserTextEncoding
+.docker
+.localized
 
-# Executables
-*.exe
-*.out
-*.app
+# User directories in MacOS
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+
+# Dev environment specifics
+urls
+dev
+dev/
+code/
+output/
+.abstract/
+.aws/
+.azure/
+.bash_sessions/
+.config/
+.docker/
+.vscode/
+.vscode-insiders/
+
+# Sensitive data
+.bash_history
+.gitconfig.local
+.histfile
+.*.log
+.local
+.viminfo
+.zcompdump
+.ssh/
+.ssb/
+.Trash/
+.trash/
+~/
+${HOME}/
+
+# Obsidian
+.obsidian/cache
