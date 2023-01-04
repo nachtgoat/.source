@@ -9,7 +9,7 @@
 # @zdestination             $myRepo/public/?/.source/.apt.update.full
 # @update                   cp @zsource @zdestination
 # @destination              ${HOME}/.apt.update.full
-# @date                     2023-01-03 22:58:03 -0500
+# @date                     2023-01-04 11:00:47 -0500
 # @usage                    /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/nachtziege/.source/main/.apt.update.full)"
 # @dependencies             ubuntu, zsh
 
