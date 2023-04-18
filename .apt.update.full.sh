@@ -1,16 +1,16 @@
 #!/usr/bin/env zsh
 
-# @title                    .apt.update.full
+# @title                    .apt.update.full.sh
 # @version                  0.003
 # @description              apt, snap and do-release-upgrade update script
 # @author                   NachtZiege
 # @shell                    zsh
-# @zsource                  $myRepo/?/.apt.update.full
-# @zdestination             $myRepo/public/?/.source/.apt.update.full
+# @zsource                  $myRepo/?/.apt.update.full.sh
+# @zdestination             $myRepo/public/?/.source/.apt.update.full.sh
 # @update                   cp @zsource @zdestination
-# @destination              ${HOME}/.apt.update.full
+# @destination              ${HOME}/.apt.update.full.sh
 # @date                     2023-01-04 11:14:34 -0500
-# @usage                    /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/nachtziege/.source/main/.apt.update.full)"
+# @usage                    /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/nachtziege/.source/main/.apt.update.full.sh)"
 # @dependencies             ubuntu, zsh, #expects sudo, recommend adding user to sudoers, visudo and add "user ALL=NOPASSWD:/usr/bin/apt,/usr/sbin/shutdown,/usr/sbin/reboot,/usr/bin/snap,/usr/bin/do-release-upgrade"
 
 # apt updates
@@ -23,7 +23,3 @@ sudo snap refresh
 
 # do-release-upgrade
 sudo do-release-upgrade
-
-# create aliases for future use
-alias zau='/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/nachtziege/.source/main/.apt.update)"'
-alias zauf='/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/nachtziege/.source/main/.apt.update)"'
